@@ -24,7 +24,7 @@ class App extends React.Component {
     );
     //when it gets all json data, change state to false
     //when movie data stores in state, render() accordingly runs
-    //movies: movies can be merged to one like movies
+    //movies: movies can be merged to one like movies because key and values are the same
     this.setState({ movies: movies, isLoading: false });
   };
 
