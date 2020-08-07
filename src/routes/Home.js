@@ -20,7 +20,7 @@ class Home extends React.Component {
         data: { movies },
       },
     } = await axios.get(
-      "http://yts-proxy.now.sh/list_movies.json?sort_by=rating"
+      "https://yts-proxy.now.sh/list_movies.json?sort_by=rating"
     );
     //when it gets all json data, change state to false
     //when movie data stores in state, render() accordingly runs
